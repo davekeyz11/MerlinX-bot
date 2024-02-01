@@ -2,7 +2,7 @@
 
 The Chatbot.py project was created by the genius developer David Dyenaan David. It was created through the attempt of teaching people how to type perfectly using capital letters where they are meant to, correct spellings etc.
 
-## Installment
+## Installation Guide
 
 To get the code running you need to follow the following steps:
 

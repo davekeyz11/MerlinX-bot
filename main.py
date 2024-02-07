@@ -2,7 +2,7 @@
 import sys
 import pyttsx3
 engine = pyttsx3.init()
-greetings = ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"]
+greetings = ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"]
 mergedGreetings = ", ".join(greetings)
 
 engine.say("Enter your message.")
@@ -17,10 +17,11 @@ else:
      engine.say("Invalid Input")
      engine.runAndWait()
      print("Invalid Input")
-     sys.exit()
-     engine.say("What is your name?")
-     engine.runAndWait()
+     quit()
+engine.say("What is your name?: ")
+engine.runAndWait()
 userName = input("What is your name?: ")
+
 engine.say("Welcome " + userName + " I am here to ask you a few questions about yourself")
 engine.runAndWait()
 print ("Welcome " + userName + " I am here to ask you a few questions about yourself")
@@ -41,7 +42,7 @@ else:
      engine.say("Invalid input")
      engine.runAndWait()
      print("Invalid input")
-     sys.exit()
+     quit()
 hobbies = ["Playing Piano", "Playing Guitar", "Drawing", "Coding", "Content creating", "Creating 3D Models", "Drawing and animating items"]
 mergedHobbies = ", ".join(hobbies)
 engine.say("What is your hobby?")
@@ -52,6 +53,60 @@ if userInput3 in hobbies:
         engine.runAndWait()
         print("I also like " + userInput3)
 else:
-     engine.say("That's okay")
+      engine.say("I also like " + userInput3)
+engine.runAndWait()
+print("I also like " + userInput3)
+
+# The next section of the code below
+engine.say("Thank you for answering the first section of questions, now it is time to move to the final one")
+engine.runAndWait()
+print("Thank you for answering the first section of questions, now it is time to move to the final one")
+# This is the question and answer section of the code
+engine.say("Who is the father of computers?: ")
+engine.runAndWait()
+userInputnextsec= input("Who is the father of computers?: ")
+
+if userInputnextsec == "Charles Babbage":
+     engine.say("That is correct")
      engine.runAndWait()
-     print("That's okay")
+     print("That is correct")
+else:
+     engine.say("That is incorrect, program ended")
+     engine.runAndWait()
+     print("That is incorrect, program ended")
+     quit()
+     # REMEMBER TO READ THE README.md file for tips, Happy Coding!!!
+
+
+# Intentional space for working directory(just incase of additions)
+engine.say("Who is the musician that burnt his hair in a Pepsi Cola commercial?: ")
+engine.runAndWait()
+userInputnextsec2 = input("Who is the musician that burnt his hair in a Pepsi Cola commercial?:")
+
+if userInputnextsec2 == "Michael Jackson":
+     engine.say("That is correct")
+     engine.runAndWait()
+     print("That is correct")
+else:
+     engine.say("That is incorrect, program ended")
+     engine.runAndWait()
+     print("That is incorrect, program ended")
+     quit()
+
+engine.say("	What animal’s foot is said to be a good luck charm?")
+engine.runAndWait()
+user_in = input("What animal's foot is said to be a good luck charm?: ")
+
+if user_in == "Rabbit":
+     engine.say("That is correct")
+     engine.runAndWait()
+     print("That is correct")
+else:
+     engine.say("That is incorrect, program ended")
+     engine.runAndWait()
+     print("That is incorrect, program ended")
+     quit()
+
+engine.say("Thank you for answering all questions in all the sections")
+engine.runAndWait()
+print("Thank you for answering all questions in all the sections")

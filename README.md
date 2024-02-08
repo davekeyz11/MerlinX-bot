@@ -19,4 +19,4 @@ To get the code running you need to follow the following steps:
 
 4. You are allowed to enter any hobby when prompted
 
-5. Then you will move to the question and answer section of facts, the number one secret is to remember to start all names with capital letter like "Thomas Willson"
+5. Then you will move to the question and answer section of facts, the number one secret is to remember to start all names with capital letter like "Thomas Willson" and remember that you have to start the first letters in a word with capital letter.

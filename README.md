@@ -1,4 +1,5 @@
 # 👨🏿‍💻MerlinX-bot.py
+**`Created By David David A.K.A Davekeyz11`**
 
 The MerlinX-bot.py project was created by the genius developer David Dyenaan David. It was created through the attempt of teaching people how to speak and write English using capital letters where they are meant to, correct spellings and answer few questions rased on facts.
 

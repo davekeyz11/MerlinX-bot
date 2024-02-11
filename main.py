@@ -22,9 +22,9 @@ engine.say("What is your name?: ")
 engine.runAndWait()
 userName = input("What is your name?: ")
 
-engine.say("Welcome " + userName + " I am here to ask you a few questions about yourself")
+engine.say("Welcome " + userName + " I am here to ask you a few questions about yourself and a few uncommon facts nowadays.")
 engine.runAndWait()
-print ("Welcome " + userName + " I am here to ask you a few questions about yourself")
+print ("Welcome " + userName + " I am here to ask you a few questions about yourself and a few uncommon facts nowadays")
 engine.say("Do you like sports?")
 engine.runAndWait()
 user_input2 = input("Do you like sports?: ")
@@ -81,7 +81,7 @@ else:
 # Intentional space for working directory(just incase of additions)
 engine.say("Who is the musician that burnt his hair in a Pepsi Cola commercial?: ")
 engine.runAndWait()
-userInputnextsec2 = input("Who is the musician that burnt his hair in a Pepsi Cola commercial?:")
+userInputnextsec2 = input("Who is the musician that burnt his hair in a Pepsi Cola commercial?: ")
 
 if userInputnextsec2 == "Michael Jackson":
      engine.say("That is correct")
@@ -107,6 +107,6 @@ else:
      print("That is incorrect, program ended")
      quit()
 
-engine.say("Thank you for answering all questions in all the sections")
+engine.say("Thank you for answering all questions in all the sections, you will be a very good student through out your grade school so I wish you good luck. Remember, I was programmed by David David so star him on the MerlinX-project at github.com/davekeyz11")
 engine.runAndWait()
-print("Thank you for answering all questions in all the sections")
+print("Thank you for answering all questions in all the sections, you will be a very good student through out your grade school so I wish you good luck. Remember, I was programmed by David David so star him on the MerlinX-project at github.com/davekeyz11")

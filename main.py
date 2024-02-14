@@ -107,6 +107,6 @@ else:
      print("That is incorrect, program ended")
      quit()
 
-engine.say("Thank you for answering all questions in all the sections, you will be a very good student through out your grade school so I wish you good luck. Remember, I was programmed by David David so star him on the MerlinX-project at github.com/davekeyz11")
+engine.say("Thank you for allowing me to test your Intellectual Quotient and for helping me to know more about you, Enjoy your day")
 engine.runAndWait()
-print("Thank you for answering all questions in all the sections, you will be a very good student through out your grade school so I wish you good luck. Remember, I was programmed by David David so star him on the MerlinX-project at github.com/davekeyz11")
+print("Thank you for allowing me to test your Intellectual Quotient and for helping me to know more about you, Enjoy your day")

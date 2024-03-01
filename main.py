@@ -1,4 +1,3 @@
-# Import Libaries and Initialize
 import sys
 import pyttsx3
 engine = pyttsx3.init()
@@ -57,11 +56,11 @@ else:
 engine.runAndWait()
 print("I also like " + userInput3)
 
-# The next section of the code below
+
 engine.say("Thank you for answering the first section of questions, now it is time to move to the final one")
 engine.runAndWait()
 print("Thank you for answering the first section of questions, now it is time to move to the final one")
-# This is the question and answer section of the code
+
 engine.say("Who is the father of computers?: ")
 engine.runAndWait()
 userInputnextsec= input("Who is the father of computers?: ")
@@ -75,10 +74,10 @@ else:
      engine.runAndWait()
      print("That is incorrect, program ended")
      quit()
-     # REMEMBER TO READ THE README.md file for tips, Happy Coding!!!
+     
 
 
-# Intentional space for working directory(just incase of additions)
+
 engine.say("Who is the musician that burnt his hair in a Pepsi Cola commercial?: ")
 engine.runAndWait()
 userInputnextsec2 = input("Who is the musician that burnt his hair in a Pepsi Cola commercial?: ")

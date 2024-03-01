@@ -1,23 +1,49 @@
-# 👨🏿‍💻MerlinX-bot.py
-**`Created By David David A.K.A Davekeyz11`**
+# MerlinX-bot
 
-The MerlinX-bot.py project was created by the genius developer David Dyenaan David. It was created through the attempt of teaching people how to speak and write English using capital letters where they are meant to, correct spellings and answer few questions rased on facts.
+This Python script interacts with users by asking questions and providing responses based on their inputs. It tests the user's ability to respond to greetings, inquire about their hobbies, and assess their knowledge by asking trivia questions.
 
-## System Requirments
-1. Laptop or Desktop
-2. Python
-3. The pyttsx3 libary
+## Table Of Contents
 
-### Cheat Sheet
+- [MerlinX-bot](#merlinx-bot)
+  - [Table Of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Contributing](#contributing)
+  - [Author](#author)
 
-To get the code running you need to follow the following steps:
+## Prerequisites
 
-1. The code will prompt the user to enter a message and you have to enter one of these greetings "hi", "hello", "hey", "good morning", "good afternoon", "good evening" if not the code will print Invalid Input and it will exit the program, but begin all of them with capital letter.
+- Python 3.x
+- pyttsx3 library
 
-2. If answered correctly the code will also prompt the user to type your name and any name is acceptable in that case.
+## Installation
 
-3. After that it should ask if you like sports and it requires a reply of Yes or No starting with a capital letter but if not it will print invalid code and exit the program.
+1. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+2. Install the pyttsx3 library using pip:
 
-4. You are allowed to enter any hobby when prompted
+    ```
+    pip install pyttsx3
+    ```
 
-5. Then you will move to the question and answer section of facts, the number one secret is to remember to start all names with capital letter like "Thomas Willson" and remember that you have to start the first letters in a word with capital letter.
+## Usage
+
+1. Run the script `main.py`.
+2. Follow the prompts and input your responses as instructed.
+
+## Features
+
+- Detects greetings and responds accordingly.
+- Asks about the user's name, hobbies, and preferences.
+- Asks trivia questions and evaluates user responses.
+
+## Contributing
+
+Contributions are welcome. **If** you have any ideas for improvements or find any issues, feel free to open an issue or submit a pull request.
+
+
+
+## Author
+
+[David David] ([Davekeyz11](https://github.com/davekeyz11))

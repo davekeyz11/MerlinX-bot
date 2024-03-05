@@ -40,7 +40,14 @@ This Python script interacts with users by asking questions and providing respon
 
 ## Contributing
 
-Contributions are welcome. **If** you have any ideas for improvements or find any issues, feel free to open an issue or submit a pull request.
+Contributions are welcome. **If** you have any ideas for improvements, follow these steps:
+- Fork this repository
+- Clone this repo using
+```
+git clone (https-url)
+```
+- Then make your changes and push them back to your copy of the repository
+- Then create a pull request
 
 
 

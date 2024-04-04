@@ -106,6 +106,4 @@ else:
      print("That is incorrect, program ended")
      quit()
 
-engine.say("Thank you for allowing me to test your Intellectual Quotient and for helping me to know more about you, Enjoy your day and star the MerlinX-bot GitHub repo at github.com/davekeyz11")
-engine.runAndWait()
-print("Thank you for allowing me to test your Intellectual Quotient and for helping me to know more about you, Enjoy your day and star the MerlinX-bot GitHub repo at github.com/davekeyz11")
+engine.say("Thank you for allowing me to test your Intellectual Quotient and for paying Attention. Please do not forget to give me a star on github.com/davekeyz11/MerlinX-bot. I would really appreciate it")
